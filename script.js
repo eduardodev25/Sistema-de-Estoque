@@ -1,3 +1,5 @@
+
+  
 let produtos = [];
 
 const nomeInput = document.getElementById("nome");
@@ -76,3 +78,28 @@ btnAdicionar.addEventListener("click", () => {
   precoInput.value = "";
   quantidadeInput.value = "";
 });
+
+nomeInput.addEventListener("input", () => {
+  const termo = nomeInput.value.toLowerCase();
+  const sugestoes = produtos.filter(p => p.nome.toLowerCase().startsWith(termo));
+  produtosContainer.innerHTML = "";
+
+  if (sugestoes.length === 0) {
+    produtosContainer.innerHTML = "<p>Produto não encontrado no estoque.</p>";
+    return;
+  }
+
+  sugestoes.forEach((produto, index) => {
+    const card = document.createElement("div");
+    card.className = "produto-card";
+    card.innerHTML = `<strong>${produto.nome}</strong> | Preço: R$${produto.preco.toFixed(2)} | Quantidade: ${produto.quantidade}`;
+    card.addEventListener("click", () => {
+      nomeInput.value = produto.nome;
+      precoInput.value = produto.preco;
+      quantidadeInput.value = produto.quantidade;
+    });
+    produtosContainer.appendChild(card);
+  });
+});
+
+renderProdutos();
