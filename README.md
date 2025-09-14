@@ -1,18 +1,31 @@
-# Sistema de Estoque
+# 🏪 Sistema de Estoque JS
 
-Sistema de estoque simples desenvolvido em **JavaScript**, **HTML** e **CSS**.  
-Permite gerenciar produtos com funcionalidades de **CRUD** (Criar, Ler, Atualizar e Deletar).
+Um sistema simples de estoque desenvolvido em **JavaScript puro**, com funcionalidades de adicionar produtos, atualizar quantidade, remover produtos e autocomplete para facilitar a busca.  
 
-## Tecnologias
-- HTML
-- CSS
-- JavaScript
+---
 
-## Funcionalidades
-- Adicionar produtos ao estoque
-- Atualizar informações de produtos
-- Listar produtos cadastrados
-- Remover produtos do estoque
+## 🛠 Tecnologias
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=fff)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=fff)
+
+---
+
+## 🚀 Funcionalidades
+- Adicionar produtos com **nome, preço e quantidade**  
+- Atualizar quantidade de produtos existentes  
+- Remover produtos do estoque  
+- Autocomplete ao digitar o nome do produto  
+- Mensagem de **“Produto não encontrado”** quando não há correspondência  
+
+---
+
+## 📌 Como usar
+1. Preencha o nome, preço e quantidade do produto  
+2. Clique em **Adicionar**  
+3. Use o campo de nome para buscar produtos existentes (autocomplete)  
+4. Clique em 🔄 para atualizar quantidade ou ❌ para remover  
+
 
 ## Como usar
 1. Acesse o repositório no GitHub:  
