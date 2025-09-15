@@ -48,6 +48,3 @@ Um sistema simples de estoque desenvolvido em **JavaScript puro**, com funcional
 ## Observações
 - Projeto para fins de estudo e prática de manipulação de arrays e DOM.
 - Permite treinar conceitos de lógica de programação e JavaScript básico.
-
-Aqui explicamos os arquivos principais do projeto:
-
