@@ -1,6 +1,7 @@
 # 🏪 Sistema de Estoque JS
 
-Um sistema simples de estoque desenvolvido em **JavaScript puro**, com funcionalidades de adicionar produtos, atualizar quantidade, remover produtos e autocomplete para facilitar a busca.  
+Um sistema simples de estoque desenvolvido em **JavaScript puro**, com funcionalidades de adicionar produtos, atualizar quantidade, remover produtos e autocomplete para facilitar a busca.  teste  
+
 
 ---
 
